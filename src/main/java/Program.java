@@ -8,7 +8,15 @@ public class Program {
 		alumno.setNombre(" luis enrique ");
 		String nombre=alumno.getNombre();
 		int edad=alumno.getEdad();
-		System.out.print("mi nombre es"+nombre+"y tengo "+edad);
+		
+		Mascota mascota=new Mascota();
+		mascota.setEdad(4);
+		mascota.setRaza("piitbul");
+		String raza= mascota.getRaza();
+		int edadanimal=mascota.getEdad();
+		
+		System.out.print("mi nombre es"+nombre+"y tengo "+edad +" ademas, mi mascota es un "+ raza+" y tiene "+edadanimal +" años");
+		
 
 	}
 
